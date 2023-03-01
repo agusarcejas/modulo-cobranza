@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+
+#formulario {
+    margin: 0 auto;
+    width: 50%; /* cualquier ancho que desees */
+}
+
+.btnCargar {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+
+}
+
+.btnReset {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+
+}
+
+.btnCobradores {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+
+}
+
+.btnLiquidacion {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
+
+}
+
+.btnAtras{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: cyan;
+}
+
