@@ -5,7 +5,7 @@ $conexion = mysqli_connect("localhost", "root", "root", "mod-cobranza");
 
   // Verificar si hubo un error en la conexión
   if ($conexion->connect_error) {
-    die("Error de conexión a la base de datos: " . $conn->connect_error);
+    die("Error de conexión a la base de datos: " . $conexion->connect_error);
   }
 
 // Verificar si se recibió una solicitud POST
@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       exit();
     } 
     else {
-        echo "Error al guardar el cobrador: " . $conn->error;
+        echo "Error al guardar el cobrador: " . $conexion->error;
     }
 
     // Cerrar la conexión a la base de datos

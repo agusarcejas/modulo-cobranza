@@ -4,7 +4,7 @@
 
   // Verificar si hubo un error en la conexión
   if ($conexion->connect_error) {
-    die("Error de conexión a la base de datos: " . $conn->connect_error);
+    die("Error de conexión a la base de datos: " . $conexion->connect_error);
   }
 
   // Consulta SQL para obtener todos los registros de la tabla
